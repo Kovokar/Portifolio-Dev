@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Diretório de build
+dist/
+
+# Arquivos de configuração de ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema de cache de IDEs
+.vscode/
+.idea/
+
+# Dependências do NPM
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Arquivos de lock do NPM ou Yarn
+package-lock.json
+yarn.lock
+
+# Arquivos do TypeScript compilado
+*.tsbuildinfo
+
+# Arquivos do Docker
+.docker/
+
+# Outros arquivos temporários e de cache
+*.tgz
