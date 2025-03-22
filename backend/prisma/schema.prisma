@@ -23,3 +23,18 @@ model Tecnologia {
   
   @@map("tecnologias")  // Maps the model to a "tecnologias" table in the database.
 }
+
+
+model Projeto {
+  id Int @id @default(autoincrement())
+  nome String
+  desc String
+  imgs String[]
+  nivel Int
+  tipo String
+  destaque Boolean @default(false)
+  repositorio String
+
+  @@map("projetos")
+
+}
